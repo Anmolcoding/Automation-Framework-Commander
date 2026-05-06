@@ -1,0 +1,16 @@
+default:
+  browser: chrome
+  headless: false
+  implicit_wait: 10
+  page_load_timeout: 30
+  environment: qa
+  report_dir: reports
+  log_level: INFO
+
+environments:
+  qa:
+    url: "https://qa.example.com"
+  staging:
+    url: "https://staging.example.com"
+  production:
+    url: "https://www.example.com"

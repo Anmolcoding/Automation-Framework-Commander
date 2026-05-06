@@ -1,0 +1,14 @@
+{
+  "data_driven": [
+    {
+      "description": "Valid QA login",
+      "username": "qa_user",
+      "password": "qa_password"
+    },
+    {
+      "description": "Valid staging login",
+      "username": "staging_user",
+      "password": "staging_password"
+    }
+  ]
+}

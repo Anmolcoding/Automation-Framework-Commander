@@ -1,0 +1,37 @@
+[
+  {
+    "action": "open_url",
+    "value": "https://qa.example.com"
+  },
+  {
+    "action": "input_text",
+    "locator": {
+      "by": "id",
+      "value": "username"
+    },
+    "value": "qa_user"
+  },
+  {
+    "action": "input_text",
+    "locator": {
+      "by": "id",
+      "value": "password"
+    },
+    "value": "qa_password"
+  },
+  {
+    "action": "click",
+    "locator": {
+      "by": "css selector",
+      "value": "button[type='submit']"
+    }
+  },
+  {
+    "action": "assert_text",
+    "locator": {
+      "by": "css selector",
+      "value": ".dashboard, .welcome-message"
+    },
+    "value": ""
+  }
+]
